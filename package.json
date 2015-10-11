@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/nodebotanist/voodoospark-installer#readme",
   "dependencies": {
+    "chalk": "^1.1.1",
     "inquirer": "^0.10.1",
     "spark": "^1.0.0"
   }
