@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var path = require('path');
 var particle = require('spark');
 var inquirer = require('inquirer');

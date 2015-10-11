@@ -1,9 +1,11 @@
 {
   "name": "voodoospark-installer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs voodoospark firmware without you having to use the Particle IDE",
   "main": "bin/index.js",
-  "bin": "bin/index.js",
+  "bin": {
+    "voodoospark": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
