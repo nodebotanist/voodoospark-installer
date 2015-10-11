@@ -1,0 +1,29 @@
+{
+  "name": "voodoospark-installer",
+  "version": "0.0.1",
+  "description": "Installs voodoospark firmware without you having to use the Particle IDE",
+  "main": "bin/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodebotanist/voodoospark-installer.git"
+  },
+  "keywords": [
+    "voodoospark",
+    "particle",
+    "photon"
+  ],
+  "author": "nodebotanist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodebotanist/voodoospark-installer/issues"
+  },
+  "homepage": "https://github.com/nodebotanist/voodoospark-installer#readme",
+  "dependencies": {
+    "inquirer": "^0.10.1",
+    "spark": "^1.0.0"
+  }
+}
