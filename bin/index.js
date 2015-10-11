@@ -50,7 +50,7 @@ inquirer.prompt(loginQuestions, function(answers){
           return device.attributes.name === answers.device
         })[0];
 
-        device.flash([path.join(__dirname, '../firmware/voodoospark.cpp')], function(err){
+        device.flash([path.resolve(__dirname, '..', 'firmware', 'voodoospark.cpp')], function(err){
           if(err){
             console.log(err);
             process.exit(1);
