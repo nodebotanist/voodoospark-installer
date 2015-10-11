@@ -12,4 +12,4 @@ Don't use this until you've created a Particle login (it makes you create one wh
 
 It'll ask for your username and password, then ask which device you want to flash voodoospark to.
 
-`voodoospark-installer`
+`voodoospark`
