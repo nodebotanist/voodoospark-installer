@@ -1,6 +1,6 @@
 {
   "name": "voodoospark-installer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Installs voodoospark firmware without you having to use the Particle IDE",
   "main": "bin/index.js",
   "bin": {
