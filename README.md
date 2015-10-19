@@ -8,13 +8,13 @@ Installs voodoospark from the command line, so you don't have to use the Particl
 
 ## Usage
 
-Don't use this until you've created a Particle login (it makes you create one when you claim a device.)
+Use this *after* you've created a Particle login (it makes you create one when you claim a device) and claimed the device you'll be working with. 
 
-It'll ask for your username and password, then ask which device you want to flash voodoospark to.
+It'll ask for your Particle username and password, then ask which device you want to flash voodoospark to.
 
 `voodoospark`
 
-You can install the voodoospark latest from GitHub using
+You can install the voodoospark latest from GitHub using:
 
 `voodoospark install`
 
